@@ -18,7 +18,7 @@ from food in Items
 		ItemID = x.ItemID,
 		FoodDescription = x.Description,
 		CurrentPrice = x.CurrentPrice,
-		TimesServed = x.BillItems.Count()
+		ItemsServed = x.BillItems.Count()
 		}
 		}
 	
@@ -30,5 +30,5 @@ from food in Items
 		MenuCategoryDescription = food.MenuCategory.Description,
 		ItemID = food.ItemID,
 		CurrentPrice = food.CurrentPrice,
-		TimesServed = food.BillItems.Count()
+		ItemsServed = food.BillItems.Count()
 		}
